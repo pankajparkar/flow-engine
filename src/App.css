@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #222;
+  height: 30px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: 14px;
+}
+
+.App-intro .panel {
+  width: 300px;
+}
+
+/* Panel CSS start */
+
+.panel-primary {
+  border-color: #428bca;
+}
+
+.panel {
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 1px solid #675b5b40;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+  box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+
+.panel-primary>.panel-heading {
+  color: #fff;
+  background-color: #428bca;
+  border-color: #428bca;
+}
+
+.panel-heading {
+  padding: 10px 15px;
+  border-bottom: 1px solid transparent;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+}
+
+.panel-body {
+  padding: 15px;
+}
+
+.panel-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 16px;
+  color: inherit;
+}
+
+.hide {
+  display: none;
+}
+
+.panel-primary>.panel-heading.failed {
+  background-color: #d24e4e;
+  border-color: #d24e4e;
+}
+
+.panel-primary>.panel-heading.processing {
+  background-color: #edf033ea;
+  border-color: #edf033ea;
+}
+
+.panel-primary>.panel-heading.executed {
+  background-color: #18e018ea;
+  border-color: #18e018ea;
+}
+
+.step-list {
+  width: 20%;
+  padding: 15px;
+  margin: 0 auto;
+}
